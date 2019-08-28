@@ -1,0 +1,21 @@
+//
+//  DaYiCommonPch.pch
+//  DaYi_Common
+//
+//  Created by Fukai on 2019/8/12.
+//  Copyright © 2019 FuKai. All rights reserved.
+//
+
+#ifndef DaYiCommonPch_pch
+#define DaYiCommonPch_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <QMUIKit/QMUIKit.h>
+#import <SDWebImage/SDWebImage.h>
+#import <Masonry/Masonry.h>
+#import "DaYiCommon.h"
+#import "DaYi_Core/DaYiCore.h"
+
+#endif /* DaYiCommonPch_pch */
