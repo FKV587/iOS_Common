@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
                     this is DaYi_Common
                    DESC
 
-  s.homepage     = "http://192.168.0.25:3000/DaYi_Repo/DaYi_Common"
+  s.homepage     = "http://192.168.0.25:3000/DaYi_Repo/PrivatePods"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -81,7 +81,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://192.168.0.25:3000/DaYi_Repo/DaYi_Common.git", :tag => s.version.to_s }
+  s.source       = { :git => "http://192.168.0.25:3000/DaYi_Repo/PrivatePods.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -96,7 +96,7 @@ Pod::Spec.new do |s|
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
-   s.prefix_header_file = 'DaYi_Common/DaYiCommonPch.pch'
+  # s.prefix_header_file = 'xxx/PrefixHeader.pch'
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -137,9 +137,5 @@ Pod::Spec.new do |s|
   # s.dependency "BLNetworking"
   # s.dependency "BLAPIManagers"
   # s.dependency "BLMediator"
-  s.dependency 'DaYi_Core'
-  s.dependency 'Masonry', '~> 1.1.0'
-  s.dependency 'ReactiveCocoa', '~> 2.3.1'
-  s.dependency 'SDWebImage', '~> 5.0'
 
 end
