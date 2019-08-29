@@ -9,5 +9,8 @@ use_frameworks!
 target 'DaYi_Common' do
   
   pod 'DaYi_Core', :path => "../DaYi_Core"
+  pod 'Masonry', '~> 1.1.0'
+  pod 'SDWebImage', '~> 5.0'
+  pod 'ReactiveCocoa', '~> 2.3.1'
 
 end

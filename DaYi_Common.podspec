@@ -96,7 +96,7 @@ Pod::Spec.new do |s|
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
-  # s.prefix_header_file = 'xxx/PrefixHeader.pch'
+  s.prefix_header_file = 'DaYi_Common/DaYiCommonPch.pch'
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -138,5 +138,8 @@ Pod::Spec.new do |s|
   # s.dependency "BLAPIManagers"
   # s.dependency "BLMediator"
   s.dependency 'DaYi_Core'
+  s.dependency 'Masonry', '~> 1.1.0'
+  s.dependency 'SDWebImage', '~> 5.0'
+  s.dependency 'ReactiveCocoa', '~> 2.3.1'
 
 end
