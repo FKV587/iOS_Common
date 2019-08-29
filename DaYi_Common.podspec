@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.name         = "DaYi_Common"
   s.version      = "0.0.1"
   s.summary      = "DaYi_Common."
-  s.swift_version = "4.2"
+  #  s.swift_version = "4.2"
   
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
                     this is DaYi_Common
                    DESC
 
-  s.homepage     = "http://192.168.0.25:3000/DaYi_Repo/PrivatePods"
+  s.homepage     = "http://192.168.0.25:3000/DaYi_Repo/DaYi_Common"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -81,7 +81,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://192.168.0.25:3000/DaYi_Repo/PrivatePods.git", :tag => s.version.to_s }
+  s.source       = { :git => "http://192.168.0.25:3000/DaYi_Repo/DaYi_Common.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
