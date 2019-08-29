@@ -7,5 +7,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 target 'DaYi_Common' do
- 
+  
+  pod 'DaYi_Core', :path => "../DaYi_Core"
+
 end
