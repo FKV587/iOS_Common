@@ -137,6 +137,7 @@ Pod::Spec.new do |s|
   # s.dependency "BLNetworking"
   # s.dependency "BLAPIManagers"
   # s.dependency "BLMediator"
+
   s.dependency 'DaYi_Core'
   s.dependency 'Masonry', '~> 1.1.0'
   s.dependency 'SDWebImage', '~> 5.0'
